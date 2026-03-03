@@ -128,7 +128,7 @@ export default function Dashboard() {
 
       <li className="flex items-center">
         <img src={code} alt="apps" className="h-4 w-4 mr-2 dark:invert" />
-        <a href="/scan">Scans</a>
+        <Link to="/scan">Scans</Link>
       </li>
 
       <li className="flex items-center">
